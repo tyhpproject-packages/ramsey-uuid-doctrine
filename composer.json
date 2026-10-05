@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/ramsey-uuid-doctrine",
+    "description": "Tyhp type definitions for ramsey/uuid-doctrine 2.1.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.1.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/ramsey-uuid-doctrine-impl": "~2.1.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/ramsey-uuid-doctrine-impl"
+        }
+    }
+}
